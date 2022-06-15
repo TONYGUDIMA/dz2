@@ -93,7 +93,7 @@ h1 img {
   padding-left: 30px;
 }
 
-h2 {
+h2, h3 {
   text-indent: 20px;
   font-size: 42px;
 }
@@ -109,10 +109,11 @@ li:last-child{
 a {
   text-decoration: none;
   transition: all 1s ease;
+  color: rgb(173, 173, 173);
 }
 
 a:visited {
-  color: inherit;
+  color: rgb(173, 173, 173);
 }
 
 a:hover {
@@ -167,6 +168,17 @@ aside p {
   transform: none;
 }
 
+table, 
+tr, 
+td, 
+th {
+  border: 2px solid rgb(173, 173, 173);
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+}
 .form {
   margin-top: 500px;
 }
