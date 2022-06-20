@@ -34,7 +34,7 @@ header {
 
 aside {
   grid-area: aside;
-  align-self: stretch;
+  align-self: start;
   margin: 20px;
   margin-top: 10px;
   padding-top: 10px;
@@ -58,7 +58,7 @@ hr {
 }
 
 footer {
-  margin-top: 500px;
+  margin-top: 60px;
   grid-area: footer;
   text-align: center;
   font-size: 18px;
@@ -120,17 +120,27 @@ a:hover {
   text-decoration: underline;
 }
 
-img {
+.logo {
   transition: all 1s ease;
+}
+
+.logo:hover {
+  transform: scale(1.4);
+}
+
+.img {
+  transition: all 1s ease;
+  margin-bottom: 5px;
+}
+
+.img:hover {
+  transform: scale(1.4);
 }
 
 .video {
   justify-self: center;
 }
 
-img:hover {
-  transform: scale(1.4);
-}
 
 main p {
   font-size: 20px;
@@ -173,14 +183,29 @@ tr,
 td, 
 th {
   border: 2px solid rgb(173, 173, 173);
+  padding: 10px;
 }
 
+th {
+  font-size: 28px;
+}
+
+table {
+  margin-bottom: 20px;
+}
 .table {
   display: flex;
   justify-content: center;
 }
+
+table img {
+  margin: 7.5px;
+  width: 110px;
+  height: 80px;
+}
+
 .form {
-  margin-top: 500px;
+  margin-top: 40px;
 }
 
 fieldset {
@@ -233,3 +258,10 @@ input {
 
 }
 
+iframe {
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-size: 24px;
+}
